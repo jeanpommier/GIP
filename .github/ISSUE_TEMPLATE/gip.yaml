@@ -1,0 +1,65 @@
+name: GeOrchestra Improvement Proposal (GIP)
+description: File a GeOrchestra Improvement Proposal (GIP)
+title: "[GIP] "
+labels: ["GIP"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out a GIP
+  - type: textarea
+    id: who
+    attributes:
+      label: Who ?
+      description: Presentation of who will support this GIP
+      placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
+    validations:
+      required: false
+  - type: textarea
+    id: target-module
+    attributes:
+      label: Target Module
+      description: Which part of geOrchestra will be affected ?
+      placeholder: Does it concern Mapstore ? GeoNetwork ? Datafeeder ? Other ?
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What ?
+      description: Tell us more about your GIP ? What is it about ?
+      placeholder:
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why ?
+      description: What is motivating this GIP ?
+      placeholder:
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How ?
+      description: How do you intend on implementing this feature ?
+      placeholder:
+    validations:
+      required: true
+  - type: textarea
+    id: pitfalls
+    attributes:
+      label: Any potential pitfalls and ways to circumvent them ?
+    validations:
+      required: false
+  - type: input
+    id: when
+    attributes:
+      label: When ?
+      description: When do you expect it to be released ? Does it target a specific release Any dependencies ?
+    validations:
+      required: false
+- type: markdown
+  attributes:
+    value: "Thanks for your commitment!"
