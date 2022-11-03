@@ -60,6 +60,6 @@ body:
       description: When do you expect it to be released ? Does it target a specific release Any dependencies ?
     validations:
       required: false
-- type: markdown
-  attributes:
-    value: "Thanks for your commitment!"
+  - type: markdown
+    attributes:
+      value: "Thanks for your commitment!"
