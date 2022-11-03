@@ -15,3 +15,19 @@ body:
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
     validations:
       required: false
+  - type: textarea
+    id: target-module
+    attributes:
+      label: Target Module
+      description: Which part of geOrchestra will be affected ?
+      placeholder: Does it concern Mapstore ? GeoNetwork ? Datafeeder ? Other ?
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What ?
+      description: Tell us more about your GIP ? What is it about ?
+      placeholder:
+    validations:
+      required: true
