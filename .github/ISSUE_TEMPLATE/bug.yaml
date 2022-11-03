@@ -3,9 +3,15 @@ description: "this is a bug"
 title: "[GIP] "
 labels: ["GIP"]
 body:
-- type: markdown
-  attributes:
-    value: "Bugs are the worst!"
-- type: textarea
-  attributes:
-    label: "What's wrong?"
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out a GIP
+  - type: textarea
+    id: who
+    attributes:
+      label: Who ?
+      description: Presentation of who will support this GIP
+      placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
+    validations:
+      required: false
