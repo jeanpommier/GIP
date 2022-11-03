@@ -1,12 +1,16 @@
 name: "GeOrchestra Improvement Proposal (GIP)"
-description: "File a GeOrchestra Improvement Proposal (GIP)"
+description: "Propose a geOrchestra enhancement"
 title: "[GIP] "
 labels: ["GIP"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out a GIP
+        Please use this form to describe your enhancement proposal.
+
+        If you have questions, you are invited to read the [geOrchestra Improvement Proposals notice](https://github.com/georchestra/improvement-proposals/blob/main/README_en.md) and the [geOrchestra manifest](https://github.com/georchestra/manifest/blob/main/MANIFEST.EN.md)
+
+        If you still have questions, you can are invited to ask them on [the mailing list](mailto:georchestra@googlegroups.com) or you can [send an email to the georchestra Steering Committee](mailto:psc@georchestra.org)
   - type: textarea
     id: who
     attributes:
@@ -27,8 +31,7 @@ body:
     id: what
     attributes:
       label: What ?
-      description: Tell us more about your GIP ? What is it about ?
-      placeholder:
+      description: Tell us more about your GIP ? What is it about ? What benefits does it bring to the community ?
     validations:
       required: true
   - type: textarea
@@ -36,7 +39,6 @@ body:
     attributes:
       label: Why ?
       description: What is motivating this GIP ?
-      placeholder:
     validations:
       required: true
   - type: textarea
@@ -62,4 +64,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: "Thanks for your commitment!"
+      value:  |
+        Thanks for your commitment!
+
+        Your proposal will be reviewed and voted in a short while. 
