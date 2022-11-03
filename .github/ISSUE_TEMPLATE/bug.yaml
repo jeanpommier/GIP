@@ -31,3 +31,19 @@ body:
       placeholder:
     validations:
       required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why ?
+      description: What is motivating this GIP ?
+      placeholder:
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How ?
+      description: How do you intend on implementing this feature ?
+      placeholder:
+    validations:
+      required: true
