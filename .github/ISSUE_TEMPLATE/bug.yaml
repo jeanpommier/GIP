@@ -1,5 +1,7 @@
 name: "Bug report"
 description: "this is a bug"
+title: "[GIP] "
+labels: ["GIP"]
 body:
 - type: markdown
   attributes:
