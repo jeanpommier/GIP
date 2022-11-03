@@ -2,6 +2,8 @@ name: "GeOrchestra Improvement Proposal (GIP)"
 description: "Propose a geOrchestra enhancement"
 title: "[GIP] "
 labels: ["GIP"]
+assignees:
+  - jeanpommier
 body:
   - type: markdown
     attributes:
@@ -67,4 +69,4 @@ body:
       value:  |
         Thanks for your commitment!
 
-        Your proposal will be reviewed and voted in a short while. 
+        Your proposal will be reviewed and voted in a short while.
