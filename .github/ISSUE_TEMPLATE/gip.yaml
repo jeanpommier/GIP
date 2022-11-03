@@ -1,5 +1,5 @@
-name: GeOrchestra Improvement Proposal (GIP)
-description: File a GeOrchestra Improvement Proposal (GIP)
+name: "GeOrchestra Improvement Proposal (GIP)"
+description: "File a GeOrchestra Improvement Proposal (GIP")
 title: "[GIP] "
 labels: ["GIP"]
 body:
