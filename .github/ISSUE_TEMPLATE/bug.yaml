@@ -47,3 +47,19 @@ body:
       placeholder:
     validations:
       required: true
+  - type: textarea
+    id: pitfalls
+    attributes:
+      label: Any potential pitfalls and ways to circumvent them ?
+    validations:
+      required: false
+  - type: input
+    id: when
+    attributes:
+      label: When ?
+      description: When do you expect it to be released ? Does it target a specific release Any dependencies ?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Thanks for your commitment!"
