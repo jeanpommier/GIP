@@ -38,9 +38,17 @@ body:
     attributes:
       value: "---"
   - type: textarea
+    id: fr-target-module
+    attributes:
+      label: "[FR] Elements concernés"
+      description: Quelles parties de geOrchestra seront affectées ?
+      placeholder: Est-ce que ça concerne Mapstore ? GeoNetwork ? Header ? Datafeeder ? Autre ?
+    validations:
+      required: true
+  - type: textarea
     id: target-module
     attributes:
-      label: Target Module
+      label: "[EN] Target Module"
       description: Which part of geOrchestra will be affected ?
       placeholder: Does it concern Mapstore ? GeoNetwork ? Header ? Datafeeder ? Other ?
     validations:
