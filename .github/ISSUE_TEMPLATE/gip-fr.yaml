@@ -13,18 +13,20 @@ body:
         Si vous avez des questions, vous êtes invité à lire d'abord la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md) (GIP en anglais) et le  [manifeste geOrchestra](https://github.com/georchestra/manifest/blob/main/MANIFEST.FR.md)
 
         Si après ça vous avez encore des questions, vous pouvez les poser sur [la mailing liste](mailto:georchestra@googlegroups.com) ou bien [envoyer un mail au comité de pilotage](mailto:psc@georchestra.org)
+
+        _**Conformément à la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md), vous pouvez soumettre une GIP en français, à condition de fournir une traduction en anglais (on ne vous demande pas du Shakespeare). Chaque champ ci-dessous est donc doublé de son équivalent en anglais. Merci.**_
   - type: textarea
-    id: who
+    id: fr-who
     attributes:
-      label: Qui ?
+      label: [FR] Qui ?
       description: Présentation de l'équipe qui va soutenir cett GIP
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) avec financement de la Banque Mondiale.
     validations:
       required: false
   - type: textarea
-    id: en-who
+    id: who
     attributes:
-      label: Qui (traduction EN) ?
+      label: [EN] Qui ?
       description: Presentation of who will support this GIP
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
     validations:
