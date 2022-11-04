@@ -22,7 +22,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: who
+    id: en-who
     attributes:
       label: Qui (traduction EN) ?
       description: Presentation of who will support this GIP
