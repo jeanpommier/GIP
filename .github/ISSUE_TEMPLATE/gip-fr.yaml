@@ -34,6 +34,9 @@ body:
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: target-module
     attributes:
@@ -42,6 +45,9 @@ body:
       placeholder: Does it concern Mapstore ? GeoNetwork ? Header ? Datafeeder ? Other ?
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: what
     attributes:
@@ -49,6 +55,9 @@ body:
       description: Tell us more about your GIP ? What is it about ? What benefits does it bring to the community ?
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: why
     attributes:
@@ -56,6 +65,9 @@ body:
       description: What is motivating this GIP ?
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: how
     attributes:
@@ -64,12 +76,18 @@ body:
       placeholder:
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: pitfalls
     attributes:
       label: Any potential pitfalls and ways to circumvent them ?
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: when
     attributes:
@@ -77,6 +95,9 @@ body:
       description: When do you expect it to be released ? Does it target a specific release Any dependencies ?
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "---"
   - type: markdown
     attributes:
       value:  |
