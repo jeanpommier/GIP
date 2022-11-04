@@ -8,15 +8,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please use this form to describe your enhancement proposal.
+        Merci d'utiliser ce formulaire pour rédiger votre proposition d'amélioration pour geOrchestra.
 
-        If you have questions, you are invited to read the [geOrchestra Improvement Proposals notice](https://github.com/georchestra/improvement-proposals/blob/main/README_en.md) and the [geOrchestra manifest](https://github.com/georchestra/manifest/blob/main/MANIFEST.EN.md)
+        Si vous avez des questions, vous êtes invité à lire d'abord la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md) (GIP en anglais) et le  [manifeste geOrchestra](https://github.com/georchestra/manifest/blob/main/MANIFEST.FR.md)
 
-        If you still have questions, you may ask them on [the mailing list](mailto:georchestra@googlegroups.com) or you can [send an email to the georchestra Steering Committee](mailto:psc@georchestra.org)
+        Si après ça vous avez encore des questions, vous pouvez les poser sur [la mailing liste](mailto:georchestra@googlegroups.com) ou bien [envoyer un mail au comité de pilotage](mailto:psc@georchestra.org)
   - type: textarea
     id: who
     attributes:
-      label: Who ?
+      label: Qui ?
+      description: Présentation de l'équipe qui va soutenir cett GIP
+      placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) avec financement de la Banque Mondiale.
+    validations:
+      required: false
+  - type: textarea
+    id: who
+    attributes:
+      label: Qui (traduction EN) ?
       description: Presentation of who will support this GIP
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
     validations:
