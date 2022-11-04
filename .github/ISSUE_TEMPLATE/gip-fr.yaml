@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: fr-who
     attributes:
-      label: [FR] Qui ?
+      label: "[FR] Qui ?"
       description: Présentation de l'équipe qui va soutenir cett GIP
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) avec financement de la Banque Mondiale.
     validations:
@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: who
     attributes:
-      label: [EN] Qui ?
+      label: "[EN] Qui ?"
       description: Presentation of who will support this GIP
       placeholder: pi-Geosolutions (jean.pommier@pi-geosolutions.fr) with funding from the World Bank.
     validations:
