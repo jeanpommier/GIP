@@ -74,10 +74,9 @@ body:
     attributes:
       value:  |
         ---
-
-        <center>
-
-        _State of the vote:_
+        _Space reserved by the PSC to track the advancement of the GIP_
+        
+        **State of the vote:**
 
         | PSC members              | vote |
         |-------------------------:|------|
@@ -90,5 +89,3 @@ body:
         | Pierre Jégo              |      |
         | Jean Pommier             |      |
         | Catherine Piton-Morales  |      |
-
-        </center>
