@@ -76,10 +76,7 @@ body:
     attributes:
       label: [do not edit] State of the vote:
       description: Space reserved by the PSC to track the advancement of the GIP
-    validations:
-      required: false
-    value: |
-
+      value: |
         | PSC members              | vote |
         |-------------------------:|------|
         | Fabrice Phung            |      |
@@ -91,3 +88,5 @@ body:
         | Pierre Jégo              |      |
         | Jean Pommier             |      |
         | Catherine Piton-Morales  |      |
+    validations:
+      required: false
