@@ -52,30 +52,52 @@ body:
       description: Which part of geOrchestra will be affected ?
       placeholder: Does it concern Mapstore ? GeoNetwork ? Header ? Datafeeder ? Other ?
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: "---"
   - type: textarea
+    id: fr-what
+    attributes:
+      label: Quoi ?
+      description: Parlez-nous de votre GIP. De quoi s'agit-il ? Quels bénéfices apportera-t-il à la communauté ?
+    validations:
+      required: true
+  - type: textarea
     id: what
     attributes:
       label: What ?
-      description: Tell us more about your GIP ? What is it about ? What benefits does it bring to the community ?
+      description: Tell us more about your GIP. What is it about ? What benefits does it bring to the community ?
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: "---"
+  - type: textarea
+    id: fr-why
+    attributes:
+      label: Pourquoi ?
+      description: Quelles sont les raisons/besoins motivant cette GIP ?
+    validations:
+      required: true
   - type: textarea
     id: why
     attributes:
       label: Why ?
       description: What is motivating this GIP ?
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: "---"
+  - type: textarea
+    id: fr-how
+    attributes:
+      label: Comment ?
+      description: Comment prévoyez-vous d'implémenter cette évolution ?
+      placeholder:
+    validations:
+      required: true
   - type: textarea
     id: how
     attributes:
@@ -83,10 +105,16 @@ body:
       description: How do you intend on implementing this feature ?
       placeholder:
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: "---"
+  - type: textarea
+    id: fr-pitfalls
+    attributes:
+      label: Identifiez-vous d'éventuels problèmes et avez-vous une idée sur la façon de les circonvenir ?
+    validations:
+      required: false
   - type: textarea
     id: pitfalls
     attributes:
@@ -97,10 +125,17 @@ body:
     attributes:
       value: "---"
   - type: textarea
+    id: fr-when
+    attributes:
+      label: Quand ?
+      description: Quand prévoyez-vous sa sortie ? Ciblez-vous une version particulière de geOrchestra ? Y a-t-il des dépendances notables ?
+    validations:
+      required: false
+  - type: textarea
     id: when
     attributes:
       label: When ?
-      description: When do you expect it to be released ? Does it target a specific release Any dependencies ?
+      description: When do you expect it to be released ? Does it target a specific release ? Any dependencies ?
     validations:
       required: false
   - type: markdown
@@ -109,6 +144,6 @@ body:
   - type: markdown
     attributes:
       value:  |
-        Thanks for your commitment!
+        Merci pour votre engagement!
 
-        Your proposal will be reviewed and voted in a short while.
+        Votre proposition va maintenant être revue et soumise au vote du comité de pilotage de geOrchestra.
