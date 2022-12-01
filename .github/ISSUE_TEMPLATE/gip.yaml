@@ -73,9 +73,11 @@ body:
   - type: textarea
     id: voting
     attributes:
-      label: "[do not edit] State of the vote:"
+      label: "## [do not edit] State of the vote:"
       description: Space reserved by the PSC to track the advancement of the GIP
       value: |
+        ---
+
         | PSC members              | vote |
         |-------------------------:|------|
         | Fabrice Phung            |      |
