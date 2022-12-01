@@ -79,8 +79,7 @@ body:
       label: "Reserved to PSC "
       description: "[do not edit] Space reserved by the PSC to track the advancement of the GIP"
       value: |
-        ---
-        State of the vote:
+        _State of the vote:_
 
         | PSC members              | vote |
         |-------------------------:|------|
