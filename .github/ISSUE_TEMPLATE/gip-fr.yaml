@@ -1,7 +1,7 @@
 name: "[fr] GeOrchestra Improvement Proposal (GIP)"
 description: "Soumettre une demande d'évolution"
 title: "[GIP] "
-labels: ["GIP"]
+labels: ["GIP","Pending"]
 assignees:
   - jeanpommier
 body:
@@ -147,3 +147,26 @@ body:
         Merci pour votre engagement!
 
         Votre proposition va maintenant être revue et soumise au vote du comité de pilotage de geOrchestra.
+  - type: markdown
+    attributes:
+      value: "---"
+  - type: textarea
+    id: voting
+    attributes:
+      label: "State of the vote:"
+      description: "[do not edit] Space reserved by the PSC to track the advancement of the GIP"
+      value: |
+
+        | PSC members              | vote |
+        |-------------------------:|------|
+        | Fabrice Phung            |      |
+        | François Van Der Biest   |      |
+        | Pierre Mauduit           |      |
+        | Landry Breuil            |      |
+        | Stéphane Mével-Viannay   |      |
+        | Maël Reboux              |      |
+        | Pierre Jégo              |      |
+        | Jean Pommier             |      |
+        | Catherine Piton-Morales  |      |
+    validations:
+      required: false
