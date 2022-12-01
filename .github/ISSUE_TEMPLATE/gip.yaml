@@ -70,13 +70,15 @@ body:
         Thanks for your commitment!
 
         Your proposal will be reviewed and voted in a short while.
-  - type: markdown
+
+  - type: textarea
+    id: voting
     attributes:
-      value:  |
-        ---
-        _Space reserved by the PSC to track the advancement of the GIP_
-        
-        **State of the vote:**
+      label: [do not edit] State of the vote:
+      description: Space reserved by the PSC to track the advancement of the GIP
+    validations:
+      required: false
+    value: |
 
         | PSC members              | vote |
         |-------------------------:|------|
