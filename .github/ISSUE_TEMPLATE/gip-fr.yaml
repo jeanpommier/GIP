@@ -14,7 +14,7 @@ body:
 
         Si après ça vous avez encore des questions, vous pouvez les poser sur [la mailing liste](mailto:georchestra@googlegroups.com) ou bien [envoyer un mail au comité de pilotage](mailto:psc@georchestra.org)
 
-        _**Conformément à la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md), vous pouvez soumettre une GIP en français, à condition de fournir une traduction en anglais (on ne vous demande pas du Shakespeare). Chaque champ ci-dessous est donc doublé de son équivalent en anglais. Merci.**_
+        _**Conformément à la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md), vous pouvez soumettre une GIP en français. Une traduction en anglais  est souhaitée (on ne vous demande pas du Shakespeare) mais non obligatoire (on s'en occupera si besoin). Chaque champ ci-dessous est donc doublé de son équivalent en anglais. Merci.**_
   - type: markdown
     attributes:
       value: "---"
@@ -59,14 +59,14 @@ body:
   - type: textarea
     id: fr-what
     attributes:
-      label: Quoi ?
+      label: "[FR] Quoi ?"
       description: Parlez-nous de votre GIP. De quoi s'agit-il ? Quels bénéfices apportera-t-il à la communauté ?
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
-      label: What ?
+      label: "[EN] What ?"
       description: Tell us more about your GIP. What is it about ? What benefits does it bring to the community ?
     validations:
       required: false
@@ -76,14 +76,14 @@ body:
   - type: textarea
     id: fr-why
     attributes:
-      label: Pourquoi ?
+      label: "[FR] Pourquoi ?"
       description: Quelles sont les raisons/besoins motivant cette GIP ?
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: Why ?
+      label: "[EN] Why ?"
       description: What is motivating this GIP ?
     validations:
       required: false
@@ -93,7 +93,7 @@ body:
   - type: textarea
     id: fr-how
     attributes:
-      label: Comment ?
+      label: "[FR] Comment ?"
       description: Comment prévoyez-vous d'implémenter cette évolution ?
       placeholder:
     validations:
@@ -101,7 +101,7 @@ body:
   - type: textarea
     id: how
     attributes:
-      label: How ?
+      label: "[EN] How ?"
       description: How do you intend on implementing this feature ?
       placeholder:
     validations:
@@ -112,13 +112,13 @@ body:
   - type: textarea
     id: fr-pitfalls
     attributes:
-      label: Identifiez-vous d'éventuels problèmes et avez-vous une idée sur la façon de les circonvenir ?
+      label: "[FR] Identifiez-vous d'éventuels problèmes et avez-vous une idée sur la façon de les circonvenir ?"
     validations:
       required: false
   - type: textarea
     id: pitfalls
     attributes:
-      label: Any potential pitfalls and ways to circumvent them ?
+      label: "[EN] Any potential pitfalls and ways to circumvent them ?"
     validations:
       required: false
   - type: markdown
@@ -127,14 +127,14 @@ body:
   - type: textarea
     id: fr-when
     attributes:
-      label: Quand ?
+      label: "[FR] Quand ?"
       description: Quand prévoyez-vous sa sortie ? Ciblez-vous une version particulière de geOrchestra ? Y a-t-il des dépendances notables ?
     validations:
       required: false
   - type: textarea
     id: when
     attributes:
-      label: When ?
+      label: "[EN] When ?"
       description: When do you expect it to be released ? Does it target a specific release ? Any dependencies ?
     validations:
       required: false

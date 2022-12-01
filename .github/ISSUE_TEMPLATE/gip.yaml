@@ -73,6 +73,10 @@ body:
   - type: markdown
     attributes:
       value:  |
+        ---
+
+        <div style="float:right">
+
         _State of the vote:_
 
         | PSC members              | vote |
@@ -86,3 +90,5 @@ body:
         | Pierre Jégo              |      |
         | Jean Pommier             |      |
         | Catherine Piton-Morales  |      |
+
+        </div>
