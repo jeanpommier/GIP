@@ -14,7 +14,7 @@ body:
 
         Si après ça vous avez encore des questions, vous pouvez les poser sur [la mailing liste](mailto:georchestra@googlegroups.com) ou bien [envoyer un mail au comité de pilotage](mailto:psc@georchestra.org)
 
-        _**Conformément à la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md), vous pouvez soumettre une GIP en français. Une traduction en anglais  est souhaitée (on ne vous demande pas du Shakespeare) mais non obligatoire (on s'en occupera si besoin). Chaque champ ci-dessous est donc doublé de son équivalent en anglais. Merci.**_
+        _**Conformément à la note sur les [Propositions d'évolutions de geOrchestra](https://github.com/georchestra/improvement-proposals/blob/main/README_fr.md), vous pouvez soumettre une GIP en français. Une traduction en anglais  est souhaitée (on ne vous demande pas du Shakespeare) mais non obligatoire (le PSC s'en occupera si besoin). Chaque champ ci-dessous est donc doublé de son équivalent en anglais. Merci.**_
   - type: markdown
     attributes:
       value: "---"
