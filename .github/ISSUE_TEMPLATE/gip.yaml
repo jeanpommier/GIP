@@ -76,7 +76,8 @@ body:
   - type: textarea
     id: voting
     attributes:
-      description: "[Do not edit this] Space reserved by the PSC to track the advancement of the GIP"
+      label: " "
+      description: "[do not edit] Space reserved by the PSC to track the advancement of the GIP"
       value: |
         ---
         State of the vote:
