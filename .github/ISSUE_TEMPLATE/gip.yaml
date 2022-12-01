@@ -75,7 +75,7 @@ body:
       value:  |
         ---
 
-        <div style="float:right">
+        <center>
 
         _State of the vote:_
 
@@ -91,4 +91,4 @@ body:
         | Jean Pommier             |      |
         | Catherine Piton-Morales  |      |
 
-        </div>
+        </center>
